@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head><title><%= title %></title></head>
-  <body><%= content %></body>
+	<head>
+		<style type="text/css">
+<%= $self->render('css/default.css', partial => 1)  %>
+		</style>
+		<title><%= title %></title>
+	</head>
+	<body>
+		<header>
+
+		</header>
+		<%= content %>
+		<footer>
+		
+		</footer>
+	</body>
 </html>
