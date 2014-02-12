@@ -8,7 +8,7 @@ sub startup {
   $self->secrets(['Cats', 'Dogs', 'Fire', 'Moon']);
   # Documentation browser under "/perldoc"
   $self->plugin('PODRenderer');
-  $self->plugin(Config => {file => 'conf/cat_shop.conf'} );
+  $self->plugin(Config => {file => 'conf/petshop.conf'} );
 
   # Router
   my $r = $self->routes;
