@@ -5,9 +5,16 @@
 <%= $self->render('css/default.css', partial => 1)  %>
 		</style>
 		<title><%= title %></title>
+		<script type="text/javascript">
+			function hover(){
+				var button = document.getElementById('test');
+				button.style('background-color: black');
+			}
+		</script>
 	</head>
-<!--  контент не  трогать улы/ли инлайнблоком горизонтально, тоже и в футер загнать сделать бордеры на них
-максим ширина 1000 пых  миним 600пых , в футере добавить ссылку на хостинг(закладка в фрилансе)  -->
+<!-- 15.02 контент не  трогать улы/ли инлайнблоком горизонтально, тоже и в футер загнать сделать бордеры на них
+максим ширина 1000 пых  миним 600пых , в футере добавить ссылку на хостинг(закладка в фрилансе) 
+17.02 меню отцентровать по центру, чтобы при добавлении пунктов центрировалось;  -->
 	<body>
 	   <header>
              <nav>
@@ -18,18 +25,28 @@
           	</ul>
              </nav>
 	   </header>
-	   <div class="content-box"><контент не  трогать улы/ли инлайнблоком горизонтально, тоже и в футер загнать сделать бордеры на них
-максим ширина 1000 пых  миним 600пых , в футере добавить ссылку на хостинг(закладка в фрилансе)></div>
+	   <div class="content-box">
+<p>1) меню отцентровать по центру, чтобы при добавлении пунктов центрировалось;</p>
+<p>2) добавил для теста еще один пункт и футере???</p>
+<p>3) ссылку на хостинг не трогал</p></div>
 	   <footer>
 	     <nav>
         	<ul>
-          		<li>Новости</li>
+          		<li mouseover="hover()">Новости</li>
           		<li>О нас</li>
           		<li>Что на майдане???</li>
+			<li>4 клавиша</li>
         	</ul>
       	     </nav>
       	     <p><a href="https://www.digitalocean.com/?refcode=9981a7d884a0" target="blank">Nash Hoster</a></p>
-	<p> открывается в другом окне!!!! </p>
+	
 	   </footer>
+	          <script type="text/javascript">
+            function hover(){
+				                var button = document.getElementById('test');
+								                button.style('background-color: black');
+												            }
+        </script>
+
 	</body>
 </html>

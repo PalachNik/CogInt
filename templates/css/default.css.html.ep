@@ -20,23 +20,32 @@ header {
 }
 li{
   display:inline;
-  border:2px solid black;
+  border:2px solid blue;
   margin:5px;
   padding:2px 5px;
+   
   
+}
+ul{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
   
+
 }
 .content-box{
     max-width:1000px;
     min-width:600px;
     height:500px; 
-    border:5px solid green;
-    text-decoration:line-through;
+    border:5px solid blue;
+    text-decoration:line-through; /*line-through; none*/
+    margin-left:auto;
+    margin-right:auto;
     
 } 
 a{
   margin-left:45px;
-  border:1px solid black;
+  
   padding:2px 5px;
 }
 
